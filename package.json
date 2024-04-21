@@ -1,0 +1,33 @@
+{
+  "name": "wasm-and-ffi-performance-comparison-in-node",
+  "description": "Compare performance between a Rust FFI and a Rust-compiled-to-WASM for the Collatz conjecture",
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "ffi-napi": "^4.0.3",
+    "ref-napi": "^3.0.3",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@wasm-tool/wasm-pack-plugin": "^1.7.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yujiosaka/wasm-and-ffi-performance-comparison-in-node.git"
+  },
+  "keywords": [
+    "ffi",
+    "rust",
+    "wasm",
+    "webassembly",
+    "benchmark",
+    "collatz"
+  ],
+  "author": "Yuji Isobe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yujiosaka/wasm-and-ffi-performance-comparison-in-node/issues"
+  },
+  "homepage": "https://github.com/yujiosaka/wasm-and-ffi-performance-comparison-in-node#readme"
+}

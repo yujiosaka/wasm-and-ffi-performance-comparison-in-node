@@ -1,0 +1,9 @@
+[package]
+name = "ffi"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+libc = "0.2.153"
